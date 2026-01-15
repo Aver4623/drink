@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Пить?</title>
 </head>
 <body>
     <h1></h1>
-    <script> 
-        const numOfDays = Math.floor(Date.now() / (3600 * 24 * 1000))
-        isOdd = (number) => number % 2 !== 0
-        needDrink = (number) => isOdd(number) ? "Да" : "Нет"
-        console.log(needDrink(numOfDays))
-        document.getElementsByTagName('h1')[0].innerText = needDrink(numOfDays)
-    </script>
+    <script src="drink.js"></script>
 </body>
 </html>
